@@ -4,15 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MYDUKA ONLINE</title>
+
+  <!-- Manifest -->
   <link rel="manifest" href="manifest.json">
+  
+  <!-- Theme Color -->
   <meta name="theme-color" content="#FFD700"/>
+
+  <!-- Icons & PWA Enhancements -->
+  <link rel="icon" href="https://i.imgur.com/xydqiZz.png" />
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="MYDUKA ONLINE">
 </head>
 <body>
   <h1>Karibu MYDUKA ONLINE</h1>
   <p>App yako iko tayari kama PWA 🎉</p>
+
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('service-worker.js');
+      navigator.serviceWorker.register('service-worker.js').then(function() {
+        console.log('Service Worker Registered');
+      });
     }
   </script>
 </body>
