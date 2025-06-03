@@ -1,7 +1,7 @@
 {
   "name": "MYDUKA ONLINE",
   "short_name": "MYDUKA",
-  "start_url": "/?source=pwa",
+"start_url": "/Myduka-online-pwa/?source=pwa",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#ffffff",
