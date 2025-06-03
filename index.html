@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MYDUKA ONLINE</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#FFD700"/>
+</head>
+<body>
+  <h1>Karibu MYDUKA ONLINE</h1>
+  <p>App yako iko tayari kama PWA 🎉</p>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js');
+    }
+  </script>
+</body>
+</html>
