@@ -1,7 +1,7 @@
 {
   "name": "E-ONLINE STORE",
   "short_name": "E-ONLINE",
-  "start_url": "/",
+  "start_url": "https://www.e-online.co.tz/",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
@@ -12,13 +12,13 @@
       "src": "https://i.imgur.com/9mKlU68.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
       "src": "https://i.imgur.com/9mKlU68.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     }
   ]
 }
